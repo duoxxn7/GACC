@@ -1,0 +1,223 @@
+
+.admin-container.data-v-1e950d16 {
+  padding: 20rpx;
+  padding-bottom: 120rpx; /* 为底部按钮留出空间 */
+  min-height: 100vh;
+  font-size: 28rpx;
+  position: relative;
+}
+.header.data-v-1e950d16 {
+  padding: 30rpx 0;
+  text-align: center;
+  border-bottom: 1rpx solid #eee;
+  margin-bottom: 20rpx;
+}
+.title.data-v-1e950d16 {
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.tabs.data-v-1e950d16 {
+  display: flex;
+  margin-bottom: 20rpx;
+  border-bottom: 1rpx solid #eee;
+  background-color: #fff;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.tab-button.data-v-1e950d16 {
+  flex: 1;
+  padding: 20rpx 0;
+  background: none;
+  border: none;
+  font-size: 28rpx;
+  color: #666;
+  position: relative;
+}
+.tab-button.active.data-v-1e950d16 {
+  color: #1989fa;
+  font-weight: 500;
+}
+.tab-button.active.data-v-1e950d16::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  right: 25%;
+  height: 4rpx;
+  background-color: #1989fa;
+  border-radius: 2rpx;
+}
+.section.data-v-1e950d16 {
+  margin-bottom: 30rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 20rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0,0,0,0.05);
+}
+.search-bar.data-v-1e950d16 {
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.search-input.data-v-1e950d16 {
+  flex: 1;
+  height: 70rpx;
+  padding: 0 20rpx;
+  border: 1rpx solid #ddd;
+  border-radius: 8rpx;
+  margin-right: 10rpx;
+  font-size: 28rpx;
+  background-color: #f8f8f8;
+}
+.search-button.data-v-1e950d16 {
+  width: 140rpx;
+  height: 70rpx;
+  background-color: #1989fa;
+  color: white;
+  border: none;
+  border-radius: 8rpx;
+  font-size: 28rpx;
+}
+.table-container.data-v-1e950d16 {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+.data-table.data-v-1e950d16 {
+  width: 100%;
+  border-collapse: collapse;
+}
+.data-table ._th.data-v-1e950d16, .data-table ._td.data-v-1e950d16 {
+  padding: 20rpx;
+  border: 1rpx solid #eee;
+  text-align: center;
+}
+.data-table ._th.data-v-1e950d16 {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+.status-enabled.data-v-1e950d16 {
+  color: #67C23A;
+}
+.status-disabled.data-v-1e950d16 {
+  color: #F56C6C;
+}
+.status-pending.data-v-1e950d16 {
+  color: #E6A23C;
+}
+.status-text.data-v-1e950d16 {
+  color: #999;
+  font-size: 26rpx;
+}
+.actions.data-v-1e950d16 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.actions button.data-v-1e950d16 {
+  margin: 0 5rpx;
+  padding: 8rpx 15rpx;
+  font-size: 26rpx;
+}
+.btn-edit.data-v-1e950d16 {
+  background-color: #409EFF;
+  color: white;
+}
+.btn-disable.data-v-1e950d16 {
+  background-color: #F56C6C;
+  color: white;
+}
+.btn-enable.data-v-1e950d16 {
+  background-color: #67C23A;
+  color: white;
+}
+.btn-approve.data-v-1e950d16 {
+  background-color: #67C23A;
+  color: white;
+}
+.btn-reject.data-v-1e950d16 {
+  background-color: #F56C6C;
+  color: white;
+}
+.modal.data-v-1e950d16 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.modal-content.data-v-1e950d16 {
+  width: 80%;
+  max-height: 80vh;
+  overflow-y: auto;
+  background-color: white;
+  border-radius: 10rpx;
+  padding: 30rpx;
+}
+.modal-title.data-v-1e950d16 {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-bottom: 30rpx;
+  display: block;
+  text-align: center;
+}
+.form-group.data-v-1e950d16 {
+  margin-bottom: 20rpx;
+}
+.label.data-v-1e950d16 {
+  display: block;
+  margin-bottom: 10rpx;
+  font-size: 28rpx;
+}
+.input.data-v-1e950d16 {
+  width: 100%;
+  padding: 15rpx;
+  border: 1rpx solid #ddd;
+  border-radius: 8rpx;
+  font-size: 28rpx;
+}
+.picker.data-v-1e950d16 {
+  padding: 15rpx;
+  border: 1rpx solid #ddd;
+  border-radius: 8rpx;
+}
+.reason-input.data-v-1e950d16 {
+  width: 100%;
+  height: 200rpx;
+  padding: 15rpx;
+  border: 1rpx solid #ddd;
+  border-radius: 8rpx;
+  margin-bottom: 20rpx;
+}
+.button-group.data-v-1e950d16 {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-save.data-v-1e950d16, .btn-confirm.data-v-1e950d16 {
+  background-color: #409EFF;
+  color: white;
+}
+.btn-cancel.data-v-1e950d16 {
+  background-color: #909399;
+  color: white;
+}
+
+/* 固定在底部的刷新按钮 */
+.refresh-button.data-v-1e950d16 {
+  position: fixed;
+  left: 30rpx;
+  right: 30rpx;
+  bottom: 30rpx;
+  height: 80rpx;
+  background-color: #1989fa;
+  color: white;
+  border-radius: 40rpx;
+  font-size: 32rpx;
+  z-index: 100;
+  box-shadow: 0 4rpx 12rpx rgba(25, 137, 250, 0.3);
+  border: none;
+}
+

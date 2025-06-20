@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.upload-container {
+  padding: 30rpx;
+  padding-bottom: 120rpx;
+  min-height: 100vh;
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+  /* 新增：防止padding影响宽度计算 */
+}
+/* 图片上传区域 */
+.image-preview-section {
+  width: calc(100% - 4rpx);
+  /* 考虑边框宽度 */
+  height: 300rpx;
+  margin-bottom: 30rpx;
+  background-color: #fff;
+  border: 2rpx dashed #e5e5e5;
+  /* 更精细的边框 */
+  border-radius: 16rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  /* 关键：包含边框在内计算宽度 */
+}
+/* 表单容器 */
+.form-section {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  /* 增加内边距 */
+  margin-bottom: 30rpx;
+  box-sizing: border-box;
+  /* 关键 */
+}
+/* 表单项优化 */
+.form-item {
+  margin-bottom: 30rpx;
+  width: 100%;
+}
+.form-item:last-child {
+  margin-bottom: 0;
+}
+.form-item .form-label {
+  display: block;
+  font-size: 28rpx;
+  color: #333;
+  margin-bottom: 16rpx;
+  font-weight: 500;
+  width: 100%;
+}
+.form-item .form-input {
+  width: 100%;
+  /* 精确计算宽度 */
+  height: 80rpx;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+  border: 2rpx solid #e5e5e5;
+  border-radius: 8rpx;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  /* 关键 */
+}
+.form-item .form-input:focus {
+  border-color: #409eff;
+}
+/* 底部按钮栏 */
+.action-bar {
+  position: fixed;
+  width: 90%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0rpx 0rpx;
+  /* 左右增加内边距 */
+  background-color: #fff;
+  border-radius: 44rpx;
+  margin: 0 auto;
+  box-shadow: 0 -4rpx 12rpx rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  z-index: 100;
+}
+.action-bar .btn-submit {
+  width: 100%;
+  height: 88rpx;
+  background-color: #67c23a;
+  color: white;
+  font-size: 32rpx;
+  border-radius: 44rpx;
+  border: none;
+  box-sizing: border-box;
+}
+

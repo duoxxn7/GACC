@@ -1,0 +1,146 @@
+
+.checkout-container.data-v-77a7cfba {
+  padding: 20rpx;
+  padding-bottom: 120rpx;
+  min-height: 100vh;
+  background-color: #f7f7f7;
+}
+.header.data-v-77a7cfba {
+  padding: 30rpx 0;
+  text-align: center;
+  border-bottom: 1rpx solid #eee;
+  margin-bottom: 20rpx;
+}
+.title.data-v-77a7cfba {
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.items-container.data-v-77a7cfba {
+  max-height: 40vh;
+  margin-bottom: 20rpx;
+  background-color: #fff;
+  border-radius: 12rpx;
+  padding: 20rpx;
+}
+.item-card.data-v-77a7cfba {
+  display: flex;
+  margin-bottom: 30rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #f5f5f5;
+}
+.item-card.data-v-77a7cfba:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.item-image.data-v-77a7cfba {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 8rpx;
+  margin-right: 20rpx;
+}
+.item-info.data-v-77a7cfba {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.item-name.data-v-77a7cfba {
+  font-size: 30rpx;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+.game-name.data-v-77a7cfba {
+  font-size: 26rpx;
+  color: #999;
+  margin-bottom: 20rpx;
+}
+.price-section.data-v-77a7cfba {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price.data-v-77a7cfba {
+  font-size: 32rpx;
+  color: #e64340;
+  font-weight: bold;
+}
+.quantity.data-v-77a7cfba {
+  font-size: 28rpx;
+  color: #999;
+}
+.total-section.data-v-77a7cfba {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20rpx;
+  background-color: #fff;
+  border-radius: 12rpx;
+  margin-bottom: 20rpx;
+}
+.total-label.data-v-77a7cfba {
+  font-size: 28rpx;
+  color: #666;
+  margin-right: 15rpx;
+}
+.total-amount.data-v-77a7cfba {
+  font-size: 36rpx;
+  color: #e64340;
+  font-weight: bold;
+}
+.payment-methods.data-v-77a7cfba {
+  background-color: #fff;
+  border-radius: 12rpx;
+  padding: 20rpx;
+}
+.section-title.data-v-77a7cfba {
+  display: block;
+  font-size: 28rpx;
+  color: #666;
+  margin-bottom: 20rpx;
+}
+.method-item.data-v-77a7cfba {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #f5f5f5;
+}
+.method-item.data-v-77a7cfba:last-child {
+  border-bottom: none;
+}
+.method-left.data-v-77a7cfba {
+  display: flex;
+  align-items: center;
+}
+.method-icon.data-v-77a7cfba {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 20rpx;
+}
+.method-name.data-v-77a7cfba {
+  font-size: 30rpx;
+  color: #333;
+}
+.footer.data-v-77a7cfba {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20rpx;
+  background-color: #fff;
+  box-shadow: 0 -4rpx 12rpx rgba(0, 0, 0, 0.08);
+}
+.pay-button.data-v-77a7cfba {
+  height: 90rpx;
+  line-height: 90rpx;
+  background-color: #1989fa;
+  color: white;
+  border-radius: 45rpx;
+  font-size: 32rpx;
+}
+.pay-button[disabled].data-v-77a7cfba {
+  background-color: #c8c9cc;
+}
+
