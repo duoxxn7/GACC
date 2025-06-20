@@ -58,7 +58,16 @@ node app.js
 ```bash
 npm run dev:%platform%   # 如 dev:h5、dev:mp-weixin 等
 ```
+## 前端在微信小程序的模拟运行视频
+下载链接：https://gacc.obs.cn-north-4.myhuaweicloud.com/vedio_for_show/%E8%BF%90%E8%A1%8C%E5%B1%95%E7%A4%BA.mp4
 
+1. 使用 HBuilderX 打开 `gacc/` 目录；
+2. 点击“运行”选择目标平台（浏览器、小程序等）；
+3. 或使用 CLI 构建命令：
+
+```bash
+npm run dev:%platform%   # 如 dev:h5、dev:mp-weixin 等
+```
 ---
 
 ## 🗄 数据库说明
