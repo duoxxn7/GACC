@@ -31,6 +31,14 @@ gacc_project/
     │   ├── pages.json                   # 页面路由配置
     │   ├── uni.promisify.adaptor.js     # uni-app Promise 适配器
     │   └── uni.scss                     # 全局样式文件
+    |
+    ├── 📁 项目开发文档                  # 项目开发文档
+    │   ├── 分工文档
+    │   ├── 模板
+    │   ├── 安装部署手册
+    │   ├── 概要设计报告
+    │   ├── 系统详细设计报告
+    │   ├── 软件需求规格说明书
     │
     ├── .gitignore                        # Git 忽略配置
     ├── README.md                         # 项目说明文档
