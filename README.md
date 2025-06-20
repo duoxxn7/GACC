@@ -7,19 +7,34 @@
 ## 📁 项目结构
 
 ```
-gacc_project/
-    gacc/
-        app.js
-        App.vue
-        gacc1.sql
-        index.html
-        main.js
-        manifest.json
-        package-lock.json
-        package.json
-        pages.json
-        uni.promisify.adaptor.js
-        uni.scss
+gacc_project/ 
+    ├── 📁 gacc_backend                    # 后端 Node.js 服务
+    │   ├── 📁 gacc_database_backup       # 数据备份文件夹
+    │   │   ├── gacc.bak                  # 数据库备份文件
+    │   ├── gacc.js                       # 主程序入口
+    │   ├── package.json                  # 后端依赖配置
+    │   └── package-lock.json             # 后端依赖锁定文件
+    │
+    ├── 📁 gacc_frontend                  # 前端 uni-app 项目
+    │   ├── 📁 .hbuilderx                 # HBuilderX 工具配置
+    │   ├── 📁 node_modules               # 前端依赖模块（已被 .gitignore 忽略）
+    │   ├── 📁 pages                      # 页面模块
+    │   ├── 📁 static                     # 静态资源目录
+    │   ├── 📁 subpkg                     # 子包页面模块
+    │   ├── 📁 unpackage/dist/dev         # 打包生成目录
+    │   ├── App.vue                      # 应用入口组件
+    │   ├── index.html                   # HTML 主页面
+    │   ├── main.js                      # Vue 入口脚本
+    │   ├── manifest.json                # 应用配置清单
+    │   ├── package.json                 # 前端依赖配置
+    │   ├── package-lock.json            # 前端依赖锁定文件
+    │   ├── pages.json                   # 页面路由配置
+    │   ├── uni.promisify.adaptor.js     # uni-app Promise 适配器
+    │   └── uni.scss                     # 全局样式文件
+    │
+    ├── .gitignore                        # Git 忽略配置
+    ├── README.md                         # 项目说明文档
+    └── 软件系统结构项目答辩.pptx          # 项目答辩展示文档
 ```
 
 ---
